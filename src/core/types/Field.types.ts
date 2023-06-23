@@ -16,9 +16,6 @@ export const UFFiledType = strEnum([
     'color',
     'range',
     'hidden',
-    'submit',
-    'reset',
-    'button',
     'search',
     'tel',
     'time',
@@ -32,4 +29,5 @@ export interface UFFiled {
     name: string;
     type: UFFiledType;
     required: boolean;
+    size?: number;
 }
