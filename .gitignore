@@ -1,0 +1,16 @@
+# logs
+logs
+*.logs
+
+# package files
+node_modules
+
+# local env files
+.env
+.env.*
+
+# misc
+.DS_Store
+
+# build
+lib

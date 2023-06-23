@@ -1,0 +1,28 @@
+{
+  "name": "uform-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edmret/uform-builder"
+  },
+  "keywords": [
+    "typescript",
+    "uform",
+    "uform-builder"
+  ],
+  "author": "Edmundo Retana",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
