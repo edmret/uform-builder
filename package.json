@@ -26,7 +26,7 @@
     "uform",
     "uform-builder"
   ],
-  "author": "Edmundo Retana",
+  "author": "Edmundo Retama",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.2",

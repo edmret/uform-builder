@@ -26,8 +26,10 @@ export const UFFiledType = strEnum([
 export type UFFiledType = keyof typeof UFFiledType;
 
 export interface UFFiled {
+    id?: string;
     name: string;
+    label?: string;
     type: UFFiledType;
     required: boolean;
-    size?: number;
+    colSize?: number;
 }

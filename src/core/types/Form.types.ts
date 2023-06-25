@@ -13,6 +13,10 @@ export interface UFRow {
      * is the list of fields that will be rendered on the row
      */
     fields: UFFiled[];
+    /**
+     * list of keywords to be used to find the section row in case wanted to be filtered
+     */
+    keywords?: string[];
 }
 
 /**
@@ -31,6 +35,10 @@ export interface UFSection {
      * is the list of rows that will be rendered on the section
      */
     rows: UFRow[];
+    /**
+     * list of keywords to be used to find the section in case wanted to be filtered
+     */
+    keywords?: string[];
 }
 
 /**
@@ -57,4 +65,8 @@ export interface UFForm {
      * is the resolver that will be executed when the form is canceled or the back button is pressed
      */
     prevForm?: UFResolver;
+    /**
+     * list of keywords to be used to find the form in case wanted to be filtered
+     */
+    keywords?: string[];
 }
